@@ -69,3 +69,21 @@ func (t *Tabuleiro) Empate() bool {
 // 	t := NovoTabuleiro()
 // 	t.Exibir()
 // }
+
+// func main() {
+// 	j := NovoJogadorBase("Pedro", "X")
+// 	fmt.Println(j.GetNome())
+// 	fmt.Println(j.GetSimbolo())
+// }
+
+func main() {
+	jogador_x := NovoJogadorX("Pedro")
+	jogador_o := NovoJogadorO("Marcus")
+
+	//X
+	fmt.Println(jogador_x.GetNome())
+	fmt.Println(jogador_x.GetSimbolo())
+	//O
+	fmt.Println(jogador_o.GetNome())
+	fmt.Println(jogador_o.GetSimbolo())
+}
