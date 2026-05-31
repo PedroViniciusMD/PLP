@@ -4,7 +4,6 @@ import "fmt"
 
 type Tabuleiro struct {
 	casas [3][3]string //casas [i][j] onde i é a linha e j é a coluna
-	//variavel com letra minuscula é privada
 }
 
 func NovoTabuleiro() *Tabuleiro {
